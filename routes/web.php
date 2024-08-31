@@ -1,9 +1,10 @@
 <?php
+
 use App\Controllers\UserController;
 
 return [
     '/user/profile' => [UserController::class,'index'],
-    '/user/create' => ["UserController",'create'],
-    '/user/edit' => ["UserController",'edit'],
-    '/user/update' => ["UserController",'update'],
+    '/user/create' => [UserController::class,'create'],
+    '/user/edit' => [UserController::class,'edit'],
+    '/user/update' => [UserController::class,'update'],
 ];

@@ -17,6 +17,8 @@ if(isset($routes[$request[0]])){
         $controller = new $controller();
         $controller->$action();
     }
+}else{
+    throw new Exception('404 Not Found');
 }
 
 
