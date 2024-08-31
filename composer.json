@@ -1,0 +1,12 @@
+{
+    "name": "scriptertoufiq/taravel",
+    "description": "World's simplest MVC",
+    "type": "framework",
+    "license": "mit",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "App\\" : "app/"
+        }
+    }
+}
